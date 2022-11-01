@@ -1,0 +1,27 @@
+@media (max-width: 945px) {
+  .section__h2 {
+    margin: 80px 0 0 70px;
+  }
+  .section__text {
+    margin: 40px auto 0;
+    max-width: 75vw;
+  }
+  .nav {
+    display: none;
+  }
+  .burger__menu {
+    display: inline;
+  }
+}
+@media (max-width: 600px) {
+  .section__h2 {
+    margin: 80px 0 0 0;
+  }
+  .logo{
+    font-size: 1.7em;
+    width: 250px;
+  }
+  .head{
+    align-items: center;
+  }
+}

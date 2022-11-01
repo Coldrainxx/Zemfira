@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Ageo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Ageo-Regular.woff);
+}
+@font-face {
+  font-family: 'Ageo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Ageo-Medium.woff);
+}
+@font-face {
+  font-family: 'Ageo';
+  font-weight: 600;
+  src: url(../fonts/Ageo-SemiBold.woff);
+}
+
+body {
+  font-family: 'Ageo', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.span {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(46, 43, 43);
+}
+.section__h2 {
+  margin-top: 80px;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.section__text{
+  margin-top: 40px;
+  max-width: 60vw;
+  line-height: 1.5em;
+}
+.head {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logo {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1em;
+  cursor: default;
+}
+.nav__row {
+  display: flex;
+  column-gap: 45px;
+}
+.nav__row-link {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1em;
+}
+.nav__row-link:hover,
+.nav__row-link:focus {
+  text-shadow: 1px 1px rgb(204, 200, 200);
+}
+.burger__menu{
+  display: none;
+  cursor: pointer;
+}
+.about__text p:last-child {
+  margin-top: 15px;
+}
+.arts__flexbox {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 50px;
+  justify-content: center;
+  align-items: center;
+}
