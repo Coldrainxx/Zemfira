@@ -7,7 +7,26 @@
     max-width: 75vw;
   }
   .nav {
-    display: none;
+    position: fixed;
+    right: 0;
+    top: -100%;
+    background: rgba(255,255,255, 1);
+    padding: 30px 30px 20px 30px;
+    border: 1px solid #000;
+    border-top: 0;
+    border-right:0;
+    border-bottom-left-radius: 10px;
+    overflow: auto;
+    transition: top 0.3s ease 0s;
+  }
+  .nav._active{
+    top: 80px;
+  }
+  .nav__row{
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 40px;
+    column-gap: 0;
   }
   .burger__menu {
     display: inline;
@@ -15,7 +34,7 @@
 }
 @media (max-width: 600px) {
   .section__h2 {
-    margin: 80px 0 0 0;
+    margin: 120px 0 0 0;
   }
   .logo{
     font-size: 1.7em;

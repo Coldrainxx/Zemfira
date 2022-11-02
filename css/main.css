@@ -32,7 +32,7 @@ body {
   color: rgb(46, 43, 43);
 }
 .section__h2 {
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: 1.7em;
   font-weight: 500;
 }
@@ -41,13 +41,22 @@ body {
   max-width: 60vw;
   line-height: 1.5em;
 }
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
 .head {
-  padding: 20px 0;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 .logo {
+  z-index: 3;
   font-size: 2em;
   font-weight: 600;
   line-height: 1em;
@@ -67,6 +76,7 @@ body {
   text-shadow: 1px 1px rgb(204, 200, 200);
 }
 .burger__menu{
+  z-index: 3;
   display: none;
   cursor: pointer;
 }
