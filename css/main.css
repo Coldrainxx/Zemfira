@@ -20,7 +20,9 @@ body {
   font-family: 'Ageo', sans-serif;
   font-size: 18px;
 }
-
+body._lock{
+  overflow: hidden;
+}
 .container {
   max-width: 1470px;
   padding: 0 15px;

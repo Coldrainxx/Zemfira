@@ -3,6 +3,7 @@ const navButton = document.querySelector('.burger__menu')
 const nav = document.querySelector('.nav')
 if (navButton) {
   navButton.addEventListener('click', function (e) {
+    document.body.classList.toggle('_lock')
     navButton.classList.toggle('_active')
     nav.classList.toggle('_active')
   })
@@ -23,6 +24,7 @@ if (navLinks.length > 0) {
         document.querySelector('header').offsetHeight
 
       if (nav.classList.contains('_active')) {
+        document.body.classList.remove('_lock')
         navButton.classList.remove('_active')
         nav.classList.remove('_active')
       }
