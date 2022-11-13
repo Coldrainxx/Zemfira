@@ -37,3 +37,19 @@ if (navLinks.length > 0) {
     }
   }
 }
+//show more button
+const showMoreBtn = document.querySelector('.show-more__btn')
+let currentImg = 6
+showMoreBtn.addEventListener('click', function (e) {
+  let images = [
+    ...document.querySelectorAll('.container .arts__flexbox .arts__img'),
+  ]
+  for (let i = currentImg; i < currentImg + 3; i++) {
+    images[i].style.display = 'block'
+  }
+  currentImg += 3
+  
+  if (currentImg >= images.length) {
+    showMoreBtn.style.display = 'none'
+  }
+})

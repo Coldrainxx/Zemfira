@@ -93,3 +93,23 @@ body._lock{
   justify-content: center;
   align-items: center;
 }
+.arts__img{
+  display: none;
+}
+.arts__img:nth-child(-n+6){
+  display: block;
+}
+.show-more__btn{
+  margin: 50px auto 0;
+  font-size: 1.5em;
+  border: 2px #000 solid ;
+  padding: 10px;
+  border-radius: 10px;
+}
+.show-more__btn:hover,.show-more__btn:focus,.show-more__btn:active {
+  background-color: rgb(231, 228, 228)
+}
+.show-more__btn:active{
+  position: relative;
+  top: 1px;
+}

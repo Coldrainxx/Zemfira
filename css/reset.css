@@ -55,7 +55,6 @@ img {
 
 img, svg {
 	max-width: 100%;
-	height: auto;
 }
 
 /* Form */
@@ -72,7 +71,7 @@ input::-ms-clear {
 }
 
 button, input[type="submit"] {
-    display: inline-block;
+    display: block;
     box-shadow: none;
     background-color: transparent;
     background: none;
